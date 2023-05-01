@@ -1,0 +1,64 @@
+@import "normalize.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--family-inter);
+  color: var(--color-black);
+  font-weight: var(--fw-light);
+  background-color: var(--bgGrey-color);
+}
+
+h1,h2,h3,h4,h5 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding: 0;
+}
+
+input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+:root {
+  /* Typography */
+  --color-blue: #5E96FC;
+  --color-white: rgba(255, 255, 255, 1);
+  --color-black: #232134;
+  --bgGrey-color: #F5F5F5;
+  --color-grey: #ACADB9;
+  --family-inter: 'inter', sans-serif;
+  --fs-small: 14px;
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-24: 24px;
+  --fs-large: 32px;
+  --fw-light: 400;
+  --fw-normal: 500;
+  --fw-bold: 600;
+  --fw-highbold: 700;
+
+  /* Other */
+  --radii: 0.5rem;
+}
+
+
+
+

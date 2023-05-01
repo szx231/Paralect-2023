@@ -1,0 +1,15 @@
+---
+import Header from '../components/header/index.astro';
+import Layout from '../components/layout/index.astro';
+import Main from '../components/main/index.astro';
+import { Filter } from '../components/filter/index';
+import { Search } from '../components/search';
+---
+
+<Layout>
+  <Header />
+  <Main>
+    <Filter client:load />
+    <Search client:load />
+  </Main>
+</Layout>

@@ -1,0 +1,26 @@
+<main class="container">
+  <div class="hero__wrapper">
+    <div class="hero">
+      <slot />
+    </div>
+  </div>
+</main>
+<style>
+  .container {
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .hero__wrapper {
+    height: 100vh;
+  }
+  .hero {
+    background-color: var(--bgGrey-color);
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin: 0 auto;
+    max-width: 1406px;
+    padding: 30px 56px;
+    width: 100%;
+    gap: 28px;
+  }
+</style>

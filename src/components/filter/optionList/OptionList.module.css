@@ -1,0 +1,44 @@
+.container {
+  height: 188px;
+  border-radius: 8px;
+  background-color: var(--color-white);
+  overflow: auto;
+  width: 100%;
+  font-family: 'Inter';
+  font-weight: var(--fw-light);
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-black);
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  top: calc(100% + 12px);
+  left: 0%;
+  overflow-x: hidden;
+  z-index: 100;
+}
+
+.container::-webkit-scrollbar {
+  width: 4px;
+  height: 24px;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background-color: #ACADB9;
+  border-radius: 20px;
+}
+
+.title {
+  padding: 8px;
+  margin: 4px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  width: 98%;
+  text-align: inherit;
+}
+
+.title:hover {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  border-radius: 8px;
+}
